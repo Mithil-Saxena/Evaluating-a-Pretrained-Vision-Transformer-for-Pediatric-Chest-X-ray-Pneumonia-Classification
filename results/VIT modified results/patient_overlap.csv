@@ -1,0 +1,2 @@
+comparison,shared_proxies,validation_images_from_shared,share_of_validation
+train vs validation (same Kaggle folder),237,309,0.3951

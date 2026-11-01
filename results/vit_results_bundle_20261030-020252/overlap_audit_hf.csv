@@ -1,0 +1,4 @@
+kaggle_partition,images,median_nn_distance,exact_hash_match,near_identical_copy_in_HF,share
+test,624,0.0,323,624,1.0
+val,782,2.0,373,782,1.0
+train,4434,2.0,2214,4434,1.0

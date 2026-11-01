@@ -1,0 +1,58 @@
+{
+  "completed": true,
+  "near_threshold_bits": 8,
+  "hf_images": 5829,
+  "hf_split_counts": {
+    "test": 582,
+    "train": 4077,
+    "unknown": 1,
+    "valid": 1169
+  },
+  "all_partitions": [
+    {
+      "kaggle_partition": "test",
+      "images": 624,
+      "median_nn_distance": 0.0,
+      "exact_hash_match": 323,
+      "near_identical_copy_in_HF": 624,
+      "share": 1.0
+    },
+    {
+      "kaggle_partition": "val",
+      "images": 782,
+      "median_nn_distance": 2.0,
+      "exact_hash_match": 373,
+      "near_identical_copy_in_HF": 782,
+      "share": 1.0
+    },
+    {
+      "kaggle_partition": "train",
+      "images": 4434,
+      "median_nn_distance": 2.0,
+      "exact_hash_match": 2214,
+      "near_identical_copy_in_HF": 4434,
+      "share": 1.0
+    }
+  ],
+  "test_by_hf_split": {
+    "test_images": 624,
+    "copy_in_HF_train": 445,
+    "copy_in_HF_valid": 118,
+    "copy_in_HF_test": 61,
+    "copy_in_HF_train_or_valid": 563,
+    "copy_only_in_HF_test": 61,
+    "no_copy_anywhere": 0,
+    "share_copy_in_HF_train": 0.7131,
+    "share_copy_in_HF_valid": 0.1891,
+    "share_copy_in_HF_test": 0.0978,
+    "share_copy_in_HF_train_or_valid": 0.9022,
+    "share_copy_only_in_HF_test": 0.0978,
+    "share_no_copy_anywhere": 0.0
+  },
+  "control_test_to_kaggle_train": {
+    "min": 42,
+    "p5": 60.0,
+    "median": 72.0
+  },
+  "accuracy_by_overlap_saved": true
+}

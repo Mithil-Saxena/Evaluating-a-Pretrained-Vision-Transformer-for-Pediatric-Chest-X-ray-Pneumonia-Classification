@@ -1,0 +1,4 @@
+Config,"Val acc, image-level split %","Val acc, patient-disjoint %","Test acc, image-level split %","Test acc, patient-disjoint %","Gap val-test, patient-disjoint (pp)"
+B,99.83 ± 0.07,98.95 ± 0.17,88.46 ± 0.64,90.97 ± 0.94,7.98
+B2,99.79 ± 0.15,98.85 ± 0.00,88.14 ± 3.09,91.72 ± 0.33,7.13
+C,99.10 ± 0.13,98.28 ± 0.25,87.39 ± 2.29,89.85 ± 1.18,8.43

@@ -1,0 +1,10 @@
+Files written by this notebook run (RUN_ID 20261030-020252)
+vit_results.csv/json      metrics at threshold 0.5 for experiments A-F (Section 10)
+predictions_test.csv      per-image probabilities and predictions (Section 14)
+metrics_with_ci.csv       accuracy/sensitivity/specificity/precision/AUC with 95% CIs, Brier, ECE
+paired_tests.csv          McNemar, paired bootstrap, Holm correction (Section 16)
+threshold_analysis.csv, prior_shift_calibration.csv   validation-chosen operating points (Section 17)
+fusion_weight_sweep.csv   fusion analysis (Section 18)
+patient_overlap.csv, overlap_audit_hf.csv, overlap_audit_summary.json   audits (Section 19)
+seed_repeats.csv, seed_repeats_summary.csv   repeated seeds (Section 20)
+split_manifest.csv, run_manifest.json   reproducibility record (Section 12)

@@ -1,0 +1,9 @@
+ID,comparison,fisher_exact_p
+A,copy in HF train vs no copy in HF train,0.5884
+A2,copy in HF train vs no copy in HF train,0.2503
+D,copy in HF train vs no copy in HF train,0.7732
+E,copy in HF train vs no copy in HF train,0.2119
+F,copy in HF train vs no copy in HF train,0.4436
+B,copy in HF train vs no copy in HF train,0.2591
+B2,copy in HF train vs no copy in HF train,0.5728
+C,copy in HF train vs no copy in HF train,0.799

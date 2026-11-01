@@ -1,0 +1,42 @@
+{
+  "supp_run_id": "supp-20261101-134105",
+  "depends_on_main_run_id": "20261027-120212",
+  "model": "lxyuan/vit-xray-pneumonia-classification",
+  "model_revision": "2187224687021e1dac2d850bb18e40b8a6f7bf7b",
+  "sha256_mismatches_vs_main_run": 0,
+  "near_threshold_bits": 8,
+  "near_group_bits": 8,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "hyperparameters": {
+    "epochs": 5,
+    "patience": 2,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "batch": 16
+  },
+  "grouped_split_counts": {
+    "train": {
+      "images": 4492,
+      "NORMAL": 1156,
+      "PNEUMONIA": 3336,
+      "pneumonia:normal": 2.89
+    },
+    "val": {
+      "images": 698,
+      "NORMAL": 184,
+      "PNEUMONIA": 514,
+      "pneumonia:normal": 2.79
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "opencv": "4.14.0",
+    "gpu": "Tesla T4"
+  }
+}

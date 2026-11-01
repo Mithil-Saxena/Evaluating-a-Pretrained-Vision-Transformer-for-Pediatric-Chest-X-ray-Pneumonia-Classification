@@ -1,0 +1,6 @@
+,accuracy,accuracy,sensitivity,sensitivity,specificity,specificity,auc,auc,FN,FN,FP,FP
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+config,,,,,,,,,,,,
+B,0.8846,0.0064,0.9974,0.0,0.6966,0.0171,0.9919,0.0007,1.0,0.0,71.0,4.0
+B2,0.8814,0.0309,0.9983,0.0015,0.6866,0.0833,0.9913,0.0019,0.6667,0.5774,73.3333,19.5021
+C,0.8739,0.0229,0.9974,0.0,0.6681,0.0611,0.9889,0.0009,1.0,0.0,77.6667,14.2945

@@ -1,0 +1,66 @@
+{
+  "run_id": "20261030-020252",
+  "seed": 42,
+  "model": "lxyuan/vit-xray-pneumonia-classification",
+  "model_revision": "2187224687021e1dac2d850bb18e40b8a6f7bf7b",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "Tesla T4",
+    "transformers": "5.20.2",
+    "torchvision": "0.26.0+cu130",
+    "opencv": "5.0.0",
+    "scikit_learn": "1.6.1",
+    "scipy": "1.16.3",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pillow": "11.3.0",
+    "huggingface_hub": "1.33.0"
+  },
+  "split": {
+    "train": 4434,
+    "val": 782,
+    "test": 624,
+    "val_size_arg": 782,
+    "stratified": true
+  },
+  "preprocessing": {
+    "img_size": 224,
+    "clahe_clip": 2.0,
+    "clahe_tile": [
+      8,
+      8
+    ],
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "finetune": {
+    "epochs": 5,
+    "patience": 2,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "batch": 16,
+    "eval_batch": 32,
+    "optimizer": "AdamW",
+    "schedule": "cosine, 10% warmup",
+    "grad_clip": 1.0,
+    "amp": true
+  },
+  "tta_views": [
+    "identity",
+    "hflip",
+    "rot+5",
+    "rot-5"
+  ],
+  "threshold": 0.5
+}

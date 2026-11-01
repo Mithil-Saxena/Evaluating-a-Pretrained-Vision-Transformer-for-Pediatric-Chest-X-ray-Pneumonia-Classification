@@ -1,0 +1,25 @@
+ID,subset,images,correct,accuracy,ci_low,ci_high,pneumonia_share
+A,copy in HF train,445,434,0.9753,0.9563,0.9861,0.643
+A,HF valid only,118,115,0.9746,0.9279,0.9913,0.619
+A,HF test only (cleanest),61,58,0.9508,0.8651,0.9831,0.508
+A2,copy in HF train,445,431,0.9685,0.9479,0.9812,0.643
+A2,HF valid only,118,114,0.9661,0.9161,0.9867,0.619
+A2,HF test only (cleanest),61,56,0.918,0.8221,0.9645,0.508
+D,copy in HF train,445,435,0.9775,0.9591,0.9877,0.643
+D,HF valid only,118,116,0.9831,0.9403,0.9953,0.619
+D,HF test only (cleanest),61,58,0.9508,0.8651,0.9831,0.508
+E,copy in HF train,445,438,0.9843,0.9679,0.9924,0.643
+E,HF valid only,118,116,0.9831,0.9403,0.9953,0.619
+E,HF test only (cleanest),61,57,0.9344,0.8432,0.9742,0.508
+F,copy in HF train,445,433,0.973,0.9535,0.9845,0.643
+F,HF valid only,118,115,0.9746,0.9279,0.9913,0.619
+F,HF test only (cleanest),61,57,0.9344,0.8432,0.9742,0.508
+B,copy in HF train,445,400,0.8989,0.8674,0.9236,0.643
+B,HF valid only,118,103,0.8729,0.8008,0.9214,0.619
+B,HF test only (cleanest),61,52,0.8525,0.7428,0.9204,0.508
+B2,copy in HF train,445,398,0.8944,0.8624,0.9196,0.643
+B2,HF valid only,118,106,0.8983,0.8306,0.9409,0.619
+B2,HF test only (cleanest),61,51,0.8361,0.7239,0.9084,0.508
+C,copy in HF train,445,384,0.8629,0.8278,0.8918,0.643
+C,HF valid only,118,103,0.8729,0.8008,0.9214,0.619
+C,HF test only (cleanest),61,50,0.8197,0.7053,0.8962,0.508
